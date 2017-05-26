@@ -1,14 +1,104 @@
 .chessBoard {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     border: 1px solid #796663;
 }
 .chessLight {
-    width: 50px;
-    height: 50px;
+    width: 62.5px;
+    height: 62.5px;
     float: left;
     background: #c6afaa;
 }
 .chessDark {
     background: #796663;
+}
+
+.BlLd{
+    background: url(images/BlLd.png);
+    width: 48px;
+    height: 55px;
+    float: left;
+    margin: 4px;
+}
+
+.blHor{
+    background: url(images/BlHor.png);
+    width: 55px;
+    height: 55px;
+    float: left;
+}
+
+.blEl{
+    background: url(images/BlEl.png);
+    width: 55px;
+    height: 55px;
+    float: left;
+}
+
+.blF{
+    background: url(images/BlF.png);
+    width: 60px;
+    height: 55px;
+    float: left;
+}
+
+.blKing{
+    background: url(images/Blking.png);
+    width: 54px;
+    height: 55px;
+    float: left;
+    margin: 2px;
+}
+
+.blP{
+    background: url(images/BlP.png);
+    width: 40px;
+    height: 55px;
+    float: left;
+    margin: 6px;
+}
+
+.wP{
+    background: url(images/WP.png);
+    width: 40px;
+    height: 55px;
+    float: left;
+    margin: 6px;
+}
+
+.wL{
+    background: url(images/WL.png);
+    width: 48px;
+    height: 55px;
+    float: left;
+    margin: 4px;
+}
+
+.wHor{
+    background: url(images/WHor.png);
+    width: 55px;
+    height: 55px;
+    float: left;
+}
+
+.wEl{
+    background: url(images/WEl.png);
+    width: 55px;
+    height: 55px;
+    float: left;
+}
+
+.wF{
+    background: url(images/WF.png);
+    width: 60px;
+    height: 55px;
+    float: left;
+}
+
+.wKing{
+    background: url(images/Wking.png);
+    width: 54px;
+    height: 55px;
+    float: left;
+    margin: 2px;
 }
